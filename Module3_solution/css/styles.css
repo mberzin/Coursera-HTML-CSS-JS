@@ -1,0 +1,91 @@
+body {
+  font-size: 16px;
+  color: black;
+  background-color: white;
+  font-family: sans-serif;
+}
+
+
+.container {
+  border: 0px solid black;
+  background-color: gray;
+  margin: 0px;
+}
+
+.container div {
+  text-align: center;
+  font-weight: bold;
+}
+
+/** HEADER **/
+#header-nav {
+  background-color: grey;
+  border-radius: 0;
+  border: 0;
+}
+
+.navbar-brand {
+  padding-top: 15px;
+  background-color: grey;
+  color: black;
+}
+
+.navbar-brand h1 { /* Restaurant name - Food, LLC*/
+  font-family: sans-serif;
+  color: black;
+  font-size: 1.5em;
+  font-weight: bold;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.navbar-brand a:hover, .navbar-brand a:focus {
+  text-decoration: none;
+}
+
+#nav-list {
+  margin-top: -1px;
+  margin-bottom: 0px;
+}
+#nav-list a {
+  color: black;
+  background-color: white;
+  text-align: center;
+  border: 1px solid black;
+  padding: 4px;
+}
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+#nav-list a span {
+  font-size: 1.8em;
+}
+#nav-list div {
+  color: black;
+  text-align: center;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid black;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -40px;
+}
+/* END HEADER */
+
+
+.container-menu section {
+  background-color: gray;
+  
+  padding: 10px;
+}
+
+.container-menu div {
+  text-align: center;
+  font-weight: bold;
+}
+
+#text_center {
+  color: black;
+ }
