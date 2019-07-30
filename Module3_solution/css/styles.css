@@ -77,8 +77,7 @@ body {
 
 .container-menu section {
   background-color: gray;
-  
-  padding: 10px;
+  padding-bottom: 10px;
 }
 
 .container-menu div {
@@ -89,3 +88,4 @@ body {
 #text_center {
   color: black;
  }
+
